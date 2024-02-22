@@ -29,19 +29,19 @@
             >Web<span class="header-logo-color">Studio</span></a
           >
           <ul class="page-nav-list">
-            <li class="page-nav-list-item">
+            <li>
               <a class="page-nav-link active" href="./index.html">Studio</a>
             </li>
-            <li class="page-nav-list-item">
+            <li>
               <a class="page-nav-link" href="#portfolio">Portfolio</a>
             </li>
-            <li class="page-nav-list-item">
+            <li>
               <a class="page-nav-link" href="">Contacts</a>
             </li>
           </ul>
         </nav>
         <!-- Address -->
-        <address class="page-address">
+        <address>
           <ul class="page-address-list">
             <li>
               <a class="page-address-link" href="mailto:info@devstudio.com"
@@ -55,6 +55,11 @@
             </li>
           </ul>
         </address>
+        <button class="mobile-menu-btn" type="button">
+          <svg class="icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-menu-svg"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
@@ -71,7 +76,7 @@
           <h2 class="visually-hidden">Our advantages</h2>
           <ul class="advantages-list">
             <li class="advantages-list-item">
-              <div class="advantages-list-item-icon-background">
+              <div class="advantages-list-item-icon">
                 <svg class="icon" width="64" height="64">
                   <use href="./images/icons.svg#icon-antenna-svg"></use>
                 </svg>
@@ -83,7 +88,7 @@
               </p>
             </li>
             <li class="advantages-list-item">
-              <div class="advantages-list-item-icon-background">
+              <div class="advantages-list-item-icon">
                 <svg class="icon" width="64" height="64">
                   <use href="./images/icons.svg#icon-clock-svg"></use>
                 </svg>
@@ -95,7 +100,7 @@
               </p>
             </li>
             <li class="advantages-list-item">
-              <div class="advantages-list-item-icon-background">
+              <div class="advantages-list-item-icon">
                 <svg class="icon" width="64" height="64">
                   <use href="./images/icons.svg#icon-diagram-svg"></use>
                 </svg>
@@ -107,7 +112,7 @@
               </p>
             </li>
             <li class="advantages-list-item">
-              <div class="advantages-list-item-icon-background">
+              <div class="advantages-list-item-icon">
                 <svg class="icon" width="64" height="64">
                   <use href="./images/icons.svg#icon-astronaut-svg"></use>
                 </svg>
@@ -130,6 +135,7 @@
             <li class="team-list-item">
               <img
                 src="./images/team/mark.jpg"
+                srcset="./images/team/mark.jpg 1x, ./images/team/mark@2.jpg 2x"
                 alt="Mark Guerrero"
                 width="264"
                 height="260"
@@ -174,6 +180,7 @@
             <li class="team-list-item">
               <img
                 src="./images/team/tom.jpg"
+                srcset="./images/team/tom.jpg 1x, ./images/team/tom@2.jpg 2x"
                 alt="Tom Ford"
                 width="264"
                 height="260"
@@ -218,6 +225,10 @@
             <li class="team-list-item">
               <img
                 src="./images/team/camila.jpg"
+                srcset="
+                  ./images/team/camila.jpg   1x,
+                  ./images/team/camila@2.jpg 2x
+                "
                 alt="Camila Garcia"
                 width="264"
                 height="260"
@@ -262,6 +273,10 @@
             <li class="team-list-item">
               <img
                 src="./images/team/daniel.jpg"
+                srcset="
+                  ./images/team/daniel.jpg   1x,
+                  ./images/team/daniel@2.jpg 2x
+                "
                 alt="Daniel Wilson"
                 width="264"
                 height="260"
@@ -313,9 +328,25 @@
             <!-- Banking App -->
 
             <li class="portfolio-list-item">
-              <div class="portfolio-image">
+              <div class="portfolio-list-item-container">
                 <img
+                  class="portfolio-mobile-img"
+                  src="./images/portfolio/mobile-banking.jpg"
+                  srcset="
+                    ./images/portfolio/mobile-banking.jpg   1x,
+                    ./images/portfolio/mobile-banking@2.jpg 2x
+                  "
+                  alt="Banking App"
+                  width="288"
+                  height="280"
+                />
+                <img
+                  class="portfolio-img"
                   src="./images/portfolio/banking.jpg"
+                  srcset="
+                    ./images/portfolio/banking.jpg   1x,
+                    ./images/portfolio/banking@2.jpg 2x
+                  "
                   alt="Banking App"
                   width="360"
                   height="300"
@@ -334,9 +365,25 @@
 
             <!-- Cashless Payment -->
             <li class="portfolio-list-item">
-              <div class="portfolio-image">
+              <div class="portfolio-list-item-container">
                 <img
+                  class="portfolio-mobile-img"
+                  src="./images/portfolio/mobile-cashless.jpg"
+                  srcset="
+                    ./images/portfolio/mobile-cashless.jpg   1x,
+                    ./images/portfolio/mobile-cashless@2.jpg 2x
+                  "
+                  alt="Banking App"
+                  width="288"
+                  height="280"
+                />
+                <img
+                  class="portfolio-img"
                   src="./images/portfolio/cashless.jpg"
+                  srcset="
+                    ./images/portfolio/cashless.jpg   1x,
+                    ./images/portfolio/cashless@2.jpg 2x
+                  "
                   alt="Cashless Payment"
                   width="360"
                   height="300"
@@ -355,9 +402,25 @@
 
             <!-- Meditation App -->
             <li class="portfolio-list-item">
-              <div class="portfolio-image">
+              <div class="portfolio-list-item-container">
                 <img
+                  class="portfolio-mobile-img"
+                  src="./images/portfolio/mobile-meditation.jpg"
+                  srcset="
+                    ./images/portfolio/mobile-meditation.jpg   1x,
+                    ./images/portfolio/mobile-meditation@2.jpg 2x
+                  "
+                  alt="Banking App"
+                  width="288"
+                  height="280"
+                />
+                <img
+                  class="portfolio-img"
                   src="./images/portfolio/meditation.jpg"
+                  srcset="
+                    ./images/portfolio/meditation.jpg   1x,
+                    ./images/portfolio/meditation@2.jpg 2x
+                  "
                   alt="Meditation App"
                   width="360"
                   height="300"
@@ -376,9 +439,25 @@
 
             <!-- Taxi Service -->
             <li class="portfolio-list-item">
-              <div class="portfolio-image">
+              <div class="portfolio-list-item-container">
                 <img
+                  class="portfolio-mobile-img"
+                  src="./images/portfolio/mobile-taxi.jpg"
+                  srcset="
+                    ./images/portfolio/mobile-taxi.jpg   1x,
+                    ./images/portfolio/mobile-taxi@2.jpg 2x
+                  "
+                  alt="Banking App"
+                  width="288"
+                  height="280"
+                />
+                <img
+                  class="portfolio-img"
                   src="./images/portfolio/taxi.jpg"
+                  srcset="
+                    ./images/portfolio/taxi.jpg   1x,
+                    ./images/portfolio/taxi@2.jpg 2x
+                  "
                   alt="Taxi Service"
                   width="360"
                   height="300"
@@ -397,9 +476,25 @@
 
             <!-- Screen illustrations -->
             <li class="portfolio-list-item">
-              <div class="portfolio-image">
+              <div class="portfolio-list-item-container">
                 <img
+                  class="portfolio-mobile-img"
+                  src="./images/portfolio/mobile-screen.jpg"
+                  srcset="
+                    ./images/portfolio/mobile-screen.jpg   1x,
+                    ./images/portfolio/mobile-screen@2.jpg 2x
+                  "
+                  alt="Banking App"
+                  width="288"
+                  height="280"
+                />
+                <img
+                  class="portfolio-img"
                   src="./images/portfolio/screen.jpg"
+                  srcset="
+                    ./images/portfolio/screen.jpg   1x,
+                    ./images/portfolio/screen@2.jpg 2x
+                  "
                   alt="Screen Illustrations"
                   width="360"
                   height="300"
@@ -418,9 +513,25 @@
 
             <!-- Online Courses -->
             <li class="portfolio-list-item">
-              <div class="portfolio-image">
+              <div class="portfolio-list-item-container">
                 <img
+                  class="portfolio-mobile-img"
+                  src="./images/portfolio/mobile-courses.jpg"
+                  srcset="
+                    ./images/portfolio/mobile-courses.jpg   1x,
+                    ./images/portfolio/mobile-courses@2.jpg 2x
+                  "
+                  alt="Banking App"
+                  width="288"
+                  height="280"
+                />
+                <img
+                  class="portfolio-img"
                   src="./images/portfolio/courses.jpg"
+                  srcset="
+                    ./images/portfolio/courses.jpg   1x,
+                    ./images/portfolio/courses@2.jpg 2x
+                  "
                   alt="Online Courses"
                   width="360"
                   height="300"
@@ -488,6 +599,8 @@
             </li>
           </ul>
         </div>
+
+        <!-- Subscribe container -->
         <div class="subscribe-container">
           <p class="subscribe-title">Subscribe</p>
           <form class="subscribe-form">
@@ -512,7 +625,7 @@
       </div>
     </footer>
 
-    <!-- Service-order-dialog -->
+    <!-- Order-service-dialog -->
     <div class="backdrop">
       <div class="order-service-dialog-container">
         <button class="order-service-close-btn" type="button">
@@ -608,6 +721,80 @@
           </div>
           <button class="send-form-btn" type="submit">Send</button>
         </form>
+      </div>
+    </div>
+
+    <!-- Mobile-menu-window -->
+    <div class="mobile-menu-window">
+      <div class="mobile-menu-container">
+        <button class="mobile-menu-close-btn" type="button">
+          <svg class="icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-svg"></use>
+          </svg>
+        </button>
+        <div class="mobile-menu-content-container">
+          <ul class="mobile-page-nav-list">
+            <li>
+              <a class="mobile-page-nav-link active" href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li>
+              <a class="mobile-page-nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+              <a class="mobile-page-nav-link" href="">Contacts</a>
+            </li>
+          </ul>
+          <div class="mobile-contact-container">
+            <address>
+              <ul class="mobile-page-address-list">
+                <li>
+                  <a
+                    class="mobile-page-address-link"
+                    href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li>
+                  <a class="mobile-page-address-link" href="tel:+110001111111"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+              </ul>
+            </address>
+            <ul class="mobile-menu-social-media-link-list">
+              <li class="mobile-menu-social-media-link-list-item">
+                <a href="" class="social-media-link" target="_blank">
+                  <svg class="icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-sm-instagram-svg"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-menu-social-media-link-list-item">
+                <a href="" class="social-media-link" target="_blank">
+                  <svg class="icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-sm-twitter-svg"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-menu-social-media-link-list-item">
+                <a href="" class="social-media-link" target="_blank">
+                  <svg class="icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-sm-facebook-svg"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-menu-social-media-link-list-item">
+                <a href="" class="social-media-link" target="_blank">
+                  <svg class="icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-sm-linkedin-svg"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </body>

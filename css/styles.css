@@ -72,7 +72,6 @@ address {
 }
 
 /* ___Tablet adaptation_________________Common styles___ */
-
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -80,7 +79,6 @@ address {
 }
 
 /* ___Desktop adaptation________________Common styles___ */
-
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
@@ -88,9 +86,9 @@ address {
     padding-right: 15px;
   }
 }
+
 /* ====================Header styles==================== */
 /* ___Mobile adaptaion__________________Header styles___ */
-
 .page-header {
   position: sticky;
   top: 0;
@@ -191,7 +189,6 @@ span.header-logo-color {
 }
 
 /* ___Tablet adaptation_________________Header styles___ */
-
 @media screen and (min-width: 768px) {
   .page-header {
     padding: 0;
@@ -247,7 +244,6 @@ span.header-logo-color {
 }
 
 /* ___Desktop adaptation________________Header styles___ */
-
 @media screen and (min-width: 1158px) {
   .page-header .page-logo {
     margin-right: 76px;
@@ -431,7 +427,6 @@ span.header-logo-color {
 
 /* ==================Solutions styles=================== */
 /* ___Mobile adaptaion_______________Solutions styles___ */
-
 .solutions {
   max-width: 320px;
   margin: 0 auto;
@@ -516,7 +511,6 @@ span.header-logo-color {
 }
 
 /* ___Desktop adaptaion______________Solutions styles___ */
-
 @media screen and (min-width: 1158px) {
   .solutions {
     max-width: 1440px;

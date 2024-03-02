@@ -680,6 +680,7 @@ span.header-logo-color {
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-social-media-link-list-item .icon {
@@ -690,7 +691,6 @@ span.header-logo-color {
 .team .social-media-link:focus,
 .team .social-media-link:active {
   background-color: #404bbf;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ___Tablet adaptaion________________Our Team styles___ */

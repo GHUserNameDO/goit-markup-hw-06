@@ -386,16 +386,10 @@ span.header-logo-color {
   gap: 72px;
 }
 
-.advantages-list-item-icon {
-  display: none;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 8px;
-  width: 100%;
-  height: 112px;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  background-color: #f4f4fd;
+@media screen and (max-width: 1157px) {
+  .advantages-list-item-icon {
+    display: none;
+  }
 }
 
 .advantages-list-item-title {
@@ -437,6 +431,14 @@ span.header-logo-color {
 
   .advantages-list-item-icon {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    width: 100%;
+    height: 112px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background-color: #f4f4fd;
   }
 
   .advantages-list-item-title {

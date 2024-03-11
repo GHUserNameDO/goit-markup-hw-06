@@ -86,6 +86,7 @@ address {
     padding-right: 15px;
   }
 }
+/* ================== /Common styles==================== */
 
 /* ====================Header styles==================== */
 /* ___Mobile adaptaion__________________Header styles___ */
@@ -263,6 +264,7 @@ span.header-logo-color {
     letter-spacing: 0.02em;
   }
 }
+/* ================== /Header styles==================== */
 
 /* ==================Solutions styles=================== */
 /* ___Mobile adaptaion_______________Solutions styles___ */
@@ -360,6 +362,7 @@ span.header-logo-color {
     padding-bottom: 48px;
   }
 }
+/* ================ /Solutions styles=================== */
 
 /* ==================Advantages styles================== */
 /* ___Mobile adaptaion______________Advantages styles___ */
@@ -451,6 +454,7 @@ span.header-logo-color {
     font-weight: 400;
   }
 }
+/* ================ /Advantages styles================== */
 
 /* ===================Our Team styles=================== */
 /* ___Mobile adaptaion________________Our Team styles___ */
@@ -563,6 +567,7 @@ span.header-logo-color {
     width: calc((100% - 24px * 3) / 4);
   }
 }
+/* ================= /Our Team styles=================== */
 
 /* ==================Portfolio styles=================== */
 /* ___Mobile adaptaion_______________Portfolio styles___ */
@@ -668,6 +673,7 @@ span.header-logo-color {
     width: calc((100% - 2 * 24px) / 3);
   }
 }
+/* ================ /Portfolio styles=================== */
 
 /* ====================Footer styles==================== */
 /* ___Mobile adaptaion__________________Footer styles___ */
@@ -878,6 +884,7 @@ span.footer-logo-color {
     padding-left: 0;
   }
 }
+/* ================== /Footer styles==================== */
 
 /* =============Order-service-dialog styles============= */
 /* ___Mobile adaptaion____Order-service-dialog styles___ */
@@ -1139,6 +1146,8 @@ span.checkbox-mark {
     width: 100%;
   }
 }
+/* ============= /Order-service-dialog styles============= */
+
 /* =============Mobile-navigation-menu styles============= */
 @media screen and (max-width: 767px) {
   .mobile-menu-window {
@@ -1308,3 +1317,4 @@ span.checkbox-mark {
     display: none;
   }
 }
+/* =========== /Mobile-navigation-menu styles============= */

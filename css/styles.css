@@ -888,6 +888,7 @@ span.footer-logo-color {
 /* ___Mobile adaptaion____Order-service-dialog styles___ */
 .backdrop {
   position: fixed;
+  z-index: 10000;
   left: 0;
   top: 0;
   width: 100%;
@@ -1094,7 +1095,7 @@ span.checkbox-mark {
   margin-right: 8px;
 }
 
-.checkbox-text {
+span.checkbox-text {
   display: inline-block;
   width: 232px;
 }

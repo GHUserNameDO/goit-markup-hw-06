@@ -1105,6 +1105,10 @@ span.checkbox-mark {
   fill: #f4f4fd;
 }
 
+.privacy-policy-checkbox:focus + .privacy-polyci-label span.checkbox-mark {
+  outline: 2px solid rgba(0, 0, 255, 0.5);
+}
+
 .send-form-btn {
   display: block;
   min-width: 169px;

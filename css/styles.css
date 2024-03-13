@@ -143,8 +143,6 @@ span.header-logo-color {
   .mobile-menu-btn {
     position: relative;
     display: block;
-    justify-content: center;
-    align-items: center;
     width: 24px;
     height: 24px;
     border: none;

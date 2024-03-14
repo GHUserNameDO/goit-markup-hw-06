@@ -1173,13 +1173,10 @@ span.checkbox-text {
   .order-service-dialog-container {
     width: 408px;
     min-height: 584px;
-  }
-
-  .order-service-dialog-container {
     padding: 72px 24px 24px 24px;
   }
 
-  .checkbox-text {
+  span.checkbox-text {
     width: 100%;
   }
 }
